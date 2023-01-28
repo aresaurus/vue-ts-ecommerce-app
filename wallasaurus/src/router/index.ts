@@ -3,7 +3,7 @@ import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import LoginView from '../views/LoginView.vue'
 import ProductsView from '../views/ProductsView.vue'
-import ProductDetailView from '../views/ProductDetailView.vue'
+import ProductDetailsView from '../views/ProductDetailsView.vue'
 import UserProfileView from '../views/UserProfileView.vue'
 
 const routes: Array<RouteRecordRaw> = [
@@ -33,7 +33,7 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/details',
     name: 'details',
-    component: ProductDetailView
+    component: ProductDetailsView
   }
 ]
 
