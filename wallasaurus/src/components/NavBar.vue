@@ -31,7 +31,16 @@ export default {
 
 <style scoped>
 .navbar-navbar-expand-lg-bg-light {
-  background-color: #3A506B;
+  background-color: #3a506b;
+}
+
+.navbar {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.nav-link {
+  padding: 0.2rem 1rem;
 }
 
 .material-icons-outlined {
@@ -39,9 +48,5 @@ export default {
   font-size: 2.5em;
   padding: 0.3em;
   margin: 0.1em;
-}
-
-.nav-item:nth-child(1) {
-  float: left;
 }
 </style>
